@@ -1,0 +1,14 @@
+export const AUTH='AUTH';
+export const LOGOUT='LOGOUT';
+export const FETCH_ALL='FETCH_ALL';
+export const CREATE='CREATE';
+export const FETCHSINGLE_POST='FETCHSINGLE_POST';
+export const DELETE_POST='DELETE_POST';
+export const LIKE_POST='LIKE_POST';
+export const GET_USER='GET_USER';
+export const UPDATE_USER='UPDATE_USER';
+export const COMMENT_POST='COMMENT_POST';
+export const START_LOADING='START_LOADING';
+export const END_LOADING='END_LOADING';
+export const FETCH_BY_SEARCH='FETCH_BY_SEARCH';
+export const UPDATE_MESSAGE='UPDATE_MESSAGE';

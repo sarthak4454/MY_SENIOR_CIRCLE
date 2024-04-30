@@ -1,0 +1,340 @@
+.nav_row{
+    display: flex;
+    flex-direction: row;
+    background-color: #ddeeff;     
+    margin-top: -10px !important;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    width: 100%;
+    padding-right: 20px;
+}
+.nav_row1{
+    display: flex;
+    flex-direction: row;
+    background-color: #ddeeff;    
+    margin-top: -10px !important;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    padding-right: 20px;
+    width: 100%;
+    position:fixed;
+    opacity: 1;
+    z-index: 1;
+}
+.logo_img{
+    margin-top: 4px;
+    margin-left: 30px;   
+    height:50px;
+    width: 55px;
+}
+.pages_option{
+    display: flex;
+    flex-direction: row;
+    margin-left: 430px;
+}
+.justify-around{
+    display: flex;
+    justify-content: space-around;
+}
+.FooterOuter{
+    background-color: #0B0D17;
+    color: white;
+    width: 100%;
+}
+.FooterButton{
+    margin-left: 6px;
+    color: white;
+}
+.DisplayFlex{
+    display: flex;
+}
+.TextDecoration{
+    text-decoration: none;
+}
+.FlexRowReverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.nav_options{
+    margin-top: 13px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px; 
+    font-weight: 300;
+    margin-left: 20px; 
+    color: #0B0D17;
+}
+.nav_options:hover{
+    color:dimgray;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.pointer{
+    cursor: pointer;
+}
+.Logo_title{
+    margin-top: 7px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px; 
+    font-weight: 600;
+    margin-left: 15px;
+    color: #142F43;
+}
+.button_class{
+    margin-top: 7px;
+    margin-left: 120px;
+}
+.button_login{
+    height: 43px;
+    width: 70px;
+    border-radius: 4px;
+    border: #0B0D17;
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    color: #fff;
+    background-color: #0B0D17;
+}
+.button_login:hover{
+    background-color: #142F43;
+    transition-duration: 0.5s;
+    transition-property: inherit;
+    transition-delay: 0.1s;
+    cursor: pointer;
+}
+.button_logout{
+  height: 43px;
+  width: 90px;
+  border-radius: 4px;
+  border: #0B0D17;
+  font-family: 'Roboto Slab', serif;
+  font-size: 17px;
+  color: #fff;
+  background-color: #0B0D17;
+  margin-left: -40px;
+}
+.button_logout:hover{
+    background-color: #142F43;
+    transition-duration: 0.5s;
+    transition-property: inherit;
+    transition-delay: 0.1s;
+    cursor: pointer;
+}
+.button_signup{
+    height: 43px;
+    width: 85px;
+    border: #0B0D17;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;  
+    color: #fff;
+    background-color: #0B0D17;
+}
+.button_signup:hover{
+    background-color: #142F43;
+    transition-duration: 0.5s;
+    transition-property: inherit;
+    transition-delay: 0.1s;
+    cursor: pointer;
+}
+.footer-1{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+.footer-2{
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+.footer-3{
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 15px;
+}  
+@media screen and (max-width:1600px){
+    .Logo_title{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:1500px){
+    
+}
+@media screen and (max-width:1400px){
+    
+}
+@media screen and (max-width:1350px){
+    
+}
+@media screen and (max-width:1300px){
+    .pages_option{
+        margin-left: 300px;
+    }
+    .button_class{
+        margin-left: 90px;
+    }
+}
+@media screen and (max-width:1250px){
+    .button_class{
+        margin-left: 80px;
+    }
+}
+@media screen and (max-width:1200px){
+    .button_class{
+        margin-left: 70px;
+    }
+}
+@media screen and (max-width:1150px){
+    .pages_option{
+        margin-left: 260px;
+    }    
+}
+@media screen and (max-width:1100px){
+    .pages_option{
+        margin-left: 230px;
+    }
+    .button_class{
+        margin-left: 70px;
+    }
+}
+@media screen and (max-width:1050px){
+    .pages_option{
+        margin-left: 200px;
+    }
+    .logo_img{
+        margin-left: 10px;
+    }
+    .Logo_title{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width:1000px){
+    .pages_option{
+        margin-left: 150px;
+    }
+    .button_class{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:950px){
+    .pages_option{
+        margin-left: 120px;
+    }
+    .button_class{
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width:900px){
+    .pages_option{
+        margin-left: 95px;
+    }
+}
+@media screen and (max-width:850px){
+    .button_class{
+        margin-left: 25px;
+        margin-right: 5px;
+    }
+    .pages_option{
+        margin-left: 70px;
+    }
+}
+@media screen and (max-width:800px){
+    .pages_option{
+        margin-left: 30px;
+    }
+    .button_class{
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width:750px){
+    .NavButton{
+        font-size: 30px;
+        margin-top: 13px;
+        color: #0B0D17;
+    }
+    .SideNav{       
+        background-color: #0B0D17;
+        position: fixed;
+        z-index: 3;
+    }
+    .Nav1{
+        transition: ease-in;
+        width: 380px;
+        opacity: 1;
+        transition-duration: 0.2s;
+    }
+    .Nav2{
+        width: 0px;
+        right:0px;
+        transition: ease-out;
+        transition-duration: 0.4s;
+    }
+    .selectiveNav{
+        padding-right: 0px;
+    }
+    .nav_options2{
+        font-family: 'Roboto Slab', serif;
+        font-size: 35px; 
+        font-weight: 400;
+        color: #fff;
+        margin-top: 15px;
+        margin-left: 70px;
+    }
+    .cross{
+        font-size: 35px;
+        margin: 20px;
+        color: #fff;
+    }
+}
+@media screen and (max-width:700px){
+    .Nav1{
+        width: 350px;
+    }
+}
+@media screen and (max-width:650px){
+    
+}
+@media screen and (max-width:600px){
+    
+}
+@media screen and (max-width:550px){
+    .Nav1{
+        width: 320px;
+    }
+    .nav_options2{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:500px){
+    .Nav1{
+        width: 280px;
+    }
+    .nav_options2{
+        margin-left: 40px;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:450px){
+    .logo_img{
+        height: 40px;
+        width: 45px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    .Logo_title{
+        font-size: 26px;
+    }
+}
+@media screen and (max-width:400px){
+    .Nav1{
+        width: 260px;
+    }
+    .nav_options2{
+        margin-left: 40px;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:350px){
+    
+}

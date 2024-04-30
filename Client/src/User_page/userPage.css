@@ -1,0 +1,556 @@
+.user_sidebar{
+    position:sticky;
+    top: 57px;
+    background-color: #0B0D17;
+    padding-top: 25px;
+    text-align: center;
+    width:422px;
+}
+.usersidebar_opt{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+.profileUpdated{
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px; 
+    font-weight: 400;    
+    color: greenyellow;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: -26px;
+    text-align: center;
+    margin-left: 15px !important;
+}
+.user_options{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px; 
+    font-weight: 400;    
+    color: #fff;
+    height: 40px;
+    align-items: center;
+    padding-top: 4px;
+}
+.user_options:hover{
+    color: #ddeeff;
+    animation-delay: 1s;
+    animation-duration: 1s;  
+}
+.usersidebar_title{
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px; 
+    font-weight: 600;    
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+}
+.usersidebar_img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+.usersidebar_content{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px; 
+    font-weight: 500;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-top: 10px;
+    }
+.uparrow{
+    display: flex;
+    justify-content: center;
+}
+.uparrowIcon{
+    margin-top: 380px !important;
+    position: sticky;
+    top: 500px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+.uparrowIcon:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition-delay: 0.2s;
+    transition-duration: 0.1s;
+}
+.UserNav{
+    padding-top: 57px;
+}
+.user_outerArea{
+    margin-left: 200px;   
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.edit_button{
+    border-radius: 4px;
+    border: #0B0D17;
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    font-weight: 550;
+    background-color: #fff;
+    color: #0B0D17;
+    margin-top: 40px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 30px;
+}
+.edit_button:hover{
+    background-color: #ddeeff;
+    transition-duration: 0.5s;
+    transition-property: inherit;
+    transition-delay: 0.1s;
+    cursor: pointer;
+}
+.detail_button{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    margin-left: 15px;
+    margin-top: -10px;
+    border: #0B0D17;
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    font-weight: 550;
+    background-color: #fff;
+    color: #0B0D17;
+}
+.detail_button:hover{
+    background-color: #ddeeff;
+    transition-duration: 0.5s;
+    transition-property: inherit;
+    transition-delay: 0.1s;
+    cursor: pointer;
+}
+.detail{
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+}
+.option1{
+    display: flex;
+    font-size: 20px;
+    width: max-content;
+}
+.option2{
+    font-size: 20px;
+    display: flex;
+    width: max-content;
+}
+.option1:hover{
+    cursor: pointer;
+}
+.option2:hover{
+    cursor: pointer;
+}
+.writeHead{
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px; 
+    font-weight: 500;
+    color: #0B0D17;
+    padding-left: 125px;
+    padding-top: 15px;   
+}
+.writeTitle{
+    margin-left: 120px;
+    width:600px;
+    height: 45px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: #0B0D17 solid 0.5px;
+    padding-left: 10px;
+}
+.writeDetails{
+    margin-left: 10px;
+    margin-right: 10px;
+    width:72%;
+    height: 45px;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: #0B0D17 solid 0.5px;
+    padding-left: 10px;
+   }
+.writeContent{
+    margin-left: 120px;
+    width:600px;
+    height: 288px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: #0B0D17 solid 0.5px;
+    padding-left: 10px;   
+    padding-top: 10px;
+}
+.writeExperience{
+    margin-left: 10px;
+    margin-right: 10px;
+    width:72%;
+    height: 45px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: #0B0D17 solid 0.5px;
+    padding-left: 10px;   
+    padding-top: 10px;
+}
+.button_cancel{
+    margin-top: 5px;
+    margin-bottom: 8px;
+    margin-left: 545px;
+    margin-right: 15px;
+    height: 43px;
+    width: 85px;
+    border: #0B0D17;
+    border-radius: 4px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;  
+    color: #fff;
+    background-color: #0B0D17;
+}
+.button_cancel:hover{
+    background-color: #142F43;
+    transition-duration: 0.5s;
+    transition-property: inherit;
+    transition-delay: 0.1s;
+    cursor: pointer;
+}
+.button_post{
+    margin-top: 5px;
+    margin-bottom: 8px;
+    height: 43px;
+    width: 65px;
+    border: #0B0D17;
+    border-radius: 4px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;  
+    color: #fff;
+    background-color: #0B0D17;
+}
+.button_post:hover{
+    background-color: #142F43;
+    transition-duration: 0.5s;
+    transition-property: inherit;
+    transition-delay: 0.1s;
+    cursor: pointer;
+}
+.myBlog_icon{
+    color:white;
+    margin-top:8px;
+}
+.fileinput{
+    width: 97%;
+    margin-top: 20px;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;  
+    margin-left: 150px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.fileinput1{
+    margin-top: 10px;
+    color: #0B0D17;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;  
+    margin-left: 130px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.blogbuttonGroup{
+    margin-top: -10px;
+    display: flex;
+    justify-content: right;
+}
+.loadProfile{
+    margin-top: 230px;
+    text-align: center;
+}
+.NoFound1{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px; 
+    font-weight: 500;
+    margin-top: 190px;
+}
+@media screen and (max-width:1600px){
+    .user_outerArea{
+        margin-left: 220px;
+    }
+    .user_sidebar{
+        width:500px;
+    }    
+}
+@media screen and (max-width:1500px){
+    
+}
+@media screen and (max-width:1400px){
+    .user_outerArea{
+        margin-left: 210px;
+    }
+}
+@media screen and (max-width:1350px){
+    .user_outerArea{
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width:1300px){
+    .user_sidebar{
+        width:440px;
+    }    
+}
+@media screen and (max-width:1200px){
+    .user_outerArea{
+        margin-left: 190px;
+    }
+    .user_sidebar{
+        width:420px;
+    }
+    
+}
+@media screen and (max-width:1150px){
+    .user_outerArea{
+        margin-left: 180px;
+    }
+    .user_sidebar{
+        width:400px;
+    }
+    
+}
+@media screen and (max-width:1100px){
+    .user_outerArea{
+        margin-left: 170px;
+    }
+    .user_sidebar{
+        width:390px;
+    }
+    .writeContent,.writeTitle{
+        width: 500px;
+    }
+    .button_cancel{
+        margin-left: 450px;
+    }
+}
+@media screen and (max-width:1050px){
+    .user_sidebar{
+        width:368px;
+    }
+    
+}
+@media screen and (max-width:992px){
+    .user_sidebar{
+        width: 100%;
+        height: 100vh;
+    }
+    .fileinput{
+        display: flex;
+        justify-content: right;
+        width: 25%;
+    }
+    .option1,.option2{
+        font-size: 30px;
+    }
+    .user_options{
+        font-size: 30px;
+        margin-top: -5px;
+    }
+    .detail_button,.edit_button{
+        font-size: 23px;
+    }
+    .profileUpdated{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:991px){
+    .user_outerArea{
+        margin-left: 70px;
+    }
+    .writeContent,.writeTitle
+    {
+        margin-left: 0px;
+        width: 700px;
+    }
+    
+    .writeContent{
+        height: 320px;
+    }
+    .writeHead{
+        text-align: left;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    .button_cancel{
+        margin-left: 0px;
+    }
+    .fileinput1{
+        margin-left: 0px;
+    }
+    .usersidebar_title{
+        font-size: 52px;
+    }
+    .usersidebar_img{
+        width: 270px;
+        height: 270px;
+    }
+}
+@media screen and (max-width:950px){
+    
+}
+@media screen and (max-width:900px){
+    .user_outerArea{
+        margin-left: 65px;
+    }
+}
+@media screen and (max-width:850px){
+    .user_outerArea{
+        margin-left: 55px;
+    }
+}
+@media screen and (max-width:800px){
+    .writeContent,.writeTitle
+    {
+        width: 600px;
+    }
+    .writeContent{
+        height: 300px;
+    }
+}
+@media screen and (max-width:750px){
+    .user_outerArea{
+        margin-left: 50px;
+    }   
+}
+@media screen and (max-width:700px){
+    .user_outerArea{
+        margin-left: 40px;
+    }
+    .writeContent,.writeTitle
+    {
+        width: 550px;
+    }
+}
+@media screen and (max-width:650px){
+    .user_outerArea{
+        margin-left: 57px;
+    }
+    .writeHead{
+        padding-top: 25px;
+    }
+}
+@media screen and (max-width:600px){
+    .user_outerArea{
+        margin-left: 45px;
+    }
+    .writeContent,.writeTitle
+    {
+        width: 500px;
+    }
+}
+@media screen and (max-width:575px){
+    .user_outerArea{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width:550px){
+    .writeContent,.writeTitle{
+        width: 450px;
+    }
+    .detail{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .usersidebar_title{
+        font-size: 48px;
+    }
+    .usersidebar_img{
+        height: 250px;
+        width: 250px;
+        margin-top: 10px;
+    }
+    .edit_button{
+        font-size: 20px;
+        margin-right: 40px;
+    }
+    .detail_button{
+        font-size: 20px;
+    }
+    .option1,.option2{
+        font-size: 28px;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+    .user_options{
+        font-size: 28px;
+    }
+    .usersidebar_opt{
+        display: flex;
+        justify-content: space-around;
+    }
+    .fileinput{
+        width: 28%;
+        margin-right: 40px;
+    }
+    .writeExperience,.writeDetails{
+        width: 75%;
+    }
+    .writeDetails{
+        margin-top: 20px;
+    }
+    .writeExperience{
+        margin-top: 10px;
+    }
+    .profileUpdated{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:500px){
+    .writeContent,.writeTitle{
+        width: 400px;
+    }
+    .writeHead{
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width:450px){
+    .writeContent,.writeTitle{
+        width: 350px;
+    }
+    .blogbuttonGroup{
+        margin-top: 0px;
+    }
+    .writeContent{
+        height: 280px;
+    }   
+    .option1,.option2,.user_options{
+        font-size: 25px;
+    } 
+}
+@media screen and (max-width:400px){
+    .writeContent,.writeTitle{
+        width: 320px;
+    }
+    .blogbuttonGroup{
+        margin-top: 15px;
+    }
+    .writeContent{
+        height: 280px;
+    }    
+    .usersidebar_title{
+        font-size: 44px;
+    }
+    .usersidebar_img{
+        height: 220px;
+        width: 220px;
+    }
+    .usersidebar_opt{
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width:350px){
+    
+}

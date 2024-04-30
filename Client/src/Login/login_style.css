@@ -1,0 +1,729 @@
+@-webkit-keyframes fadeOut{
+  0%{
+  opacity:1;}
+  to{opacity:0;}
+}
+@keyframes fadeOut{
+  0%{
+  opacity:1;}
+  to{opacity:0;}
+}
+.fadeOut{
+  -webkit-animation-name:fadeOut;
+  animation-name:fadeOut;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.alert-enter {
+    opacity: 0;
+    transform: scale(0.9);
+}
+.alert-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.alert-exit {
+  opacity: 1;
+}
+.alert-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}  
+.box-sign{
+align-items: center;
+position: absolute;
+width: 828px;
+height: 500px;
+background: #FFFFFF;
+font-family: 'Roboto Slab', serif;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+margin-top: 3%;
+}
+.backg_sign
+{
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    justify-content: space-around;
+    align-content: center;
+    z-index: 1;
+}
+.sign_detail{
+    background-color:#0B0D17;
+    font-family: 'Roboto Slab', serif;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 500px;
+}
+.circle1{
+  border: #0B0D17 solid 58px; 
+  border-radius: 1000px;
+  height: 300px;
+  width: 300px;
+  position: fixed;
+  z-index: 0;
+  margin-left: 70px;
+  margin-top: 70px;
+}
+.outercircle1{
+  border: #0B0D17 solid 5px; 
+  border-radius: 1000px;
+  position: fixed;
+  height: 450px;
+  width: 450px;
+  margin-left: 980px;
+  margin-top: -135px;
+  z-index: 0;
+}
+.circle2{
+  border: #0B0D17 solid 58px; 
+  border-radius: 1000px;
+  height: 300px;
+  width: 300px;
+  position: fixed;
+  z-index: 0;
+  margin-left: 70px;
+  margin-top: 70px;
+}
+.defineColor{
+  background-color:#e7e7e8;
+}
+.OrStyle{
+  text-align: center;
+  color: #B9B9B9;
+  margin-top: 10px;
+}
+.AlignCenter{
+  text-align: center;
+}
+.googleLogin{
+  text-align: center;
+  margin-top: 5px;
+  background-color: white;
+}
+.outercircle2{
+  border: #0B0D17 solid 5px; 
+  border-radius: 1000px;
+  position: fixed;
+  height: 450px;
+  width: 450px;
+  margin-top: 300px;
+  margin-left: -105px;
+  z-index: 0;
+}
+.sign2_detail{
+    background-color:#0B0D17;
+    border-top-right-radius: 15px;
+    font-family: 'Roboto Slab', serif;
+    border-bottom-right-radius: 15px;
+    height: 500px;
+}
+.forgotpass{
+    text-align: center;
+    margin-top: 28px;
+    margin-left: -200px !important;
+    color: #B9B9B9;
+}
+.data-1{
+    margin-top: 60%;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 54px;
+    text-align: center; 
+    color: #FFFFFF;
+}
+.data-2{
+    margin-top: 10%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.data-3{
+    font-family: Inter;
+    font-style: normal;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #0B0D17;
+    margin-top: 6%;
+    margin-bottom: 20px;
+}
+.sign_but1{
+    background: #0B0D17;
+    color: #F1E4FF;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+    font-family: 'Roboto Slab', serif;
+    padding-left:18px;
+    padding-right: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 500;
+    margin-left: 30%;
+    margin-top: 20%;
+    transition-delay: 80ms;
+}
+.sign_but1:hover{
+  background: #fff ;
+  color: #0B0D17;
+  transition-delay: 80ms;
+  border-radius: 6px;
+}
+.sign_but2{
+    background: #0B0D17;
+    color: #FFFFFF;
+    border: 2px solid #0B0D17;
+    border-radius: 6px;
+    padding-left:18px;
+    font-family: 'Roboto Slab', serif;
+    padding-right: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 500;
+    margin-left: 40%;
+    margin-top: 10%;
+    transition-delay: 80ms;
+  }
+.sign_but2:hover{
+  background: #fff ;
+  color: #0B0D17;
+  transition-delay: 80ms;
+  border-radius: 6px;
+}
+.sign_but3{
+    background: #0B0D17;
+    color: #FFFFFF;
+    border: 2px solid #0B0D17;
+    font-family: 'Roboto Slab', serif;
+    border-radius: 6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 95px;
+    font-weight: 500;
+    margin-left: 40%;
+    margin-top: 5%;
+  }
+.sign_but3:hover{
+  color: #0B0D17;
+  background-color: #fff;
+  transition-delay: 60ms;
+  transition-duration: 0.5s;
+  border-radius: 6px;
+}
+.input_style1{
+  width:30%;
+  padding-left: 15px;
+  font-family: 'Roboto Slab', serif;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 20px;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: medium;
+}
+.googleStyle{
+  background-color: #0B0D17;
+  text-align: center;
+  color: #fff;
+  width: 250px;
+  font-size: 18px;
+  font-family: 'Roboto Slab', serif;
+  cursor: pointer;
+  border: solid 2px #0B0D17;
+  margin-left: 130px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5px;
+  font-weight: 400;
+}
+.googleStyle:hover{
+  background-color: white;
+  color: #0B0D17;
+  transition-delay: 50ms;
+  transition-duration: 0.8s;
+}
+.googleIcon{
+  margin-top: -3px;
+  margin-right: 8px;
+}
+.authLoad{
+  z-index: 2;
+  margin-left: 600px;
+  margin-top: 230px;
+  position: fixed;
+}
+.errorLogin{
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: -44px;
+}
+.errorSignup{
+  color: red;
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: -4px;
+}
+.input_style2{
+    width:64%;
+    padding-left: 15px;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 20px;
+    height: 50px;
+    font-size: medium;
+  }
+.eye{
+    margin-left: 72%;
+    margin-top:-4.5%;
+}
+.form_style{
+  text-align: center;
+  margin-top: 40px;
+}
+.ManageOpacity{
+  opacity: 0.2;
+}
+@media screen and (max-width:1600px){
+  .outercircle1{
+    margin-left: 1280px;
+    margin-top: -135px;
+  }
+  .outercircle2{
+    margin-top: 350px;
+    margin-left: -135px;
+  }
+  .backg_sign{
+    padding-top: 15px;
+  }
+}
+@media screen and (max-width:1500px){
+  .outercircle1{
+    margin-left: 1200px;
+    margin-top: -135px;
+  }
+}
+@media screen and (max-width:1400px){
+  .outercircle1{
+    margin-left: 1100px;
+    margin-top: -135px;
+  }
+  .backg_sign{
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width:1300px){
+  .outercircle1{
+    margin-left: 1000px;
+    margin-top: -135px;
+  }
+  .backg_sign{
+    padding-top: 0px;
+  }
+}
+@media screen and (max-width:1200px){
+  .outercircle1{
+    margin-left: 900px;
+    margin-top: -135px;
+  }
+  .googleStyle{
+    margin-left: 135px;
+  }
+}
+@media screen and (max-width: 1085px) {
+  .outercircle1{
+    margin-left: 780px;
+    margin-top: -135px;
+  }
+  .box-sign{
+    width: 780px;
+    height: 480px;
+    margin-top: 4%;
+    }
+  .sign_detail{
+    height: 480px;
+  }
+  .sign2_detail{
+    height: 480px;
+  }
+  .backg_sign{
+    padding-top: 35px;
+  }  
+  .googleStyle{
+    margin-left: 120px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .outercircle1{
+    margin-left: 690px;
+    margin-top: -155px;
+  }
+  .box-sign{
+    width: 750px;
+    height: 480px;
+    margin-top: 4%;
+    }
+  .sign_detail{
+    height: 480px;
+  }
+  .sign2_detail{
+    height: 480px;
+  }
+  .forgotpass{
+    margin-left: -150px !important;
+  }
+  .backg_sign{
+    padding-top: 37px;
+  }  
+  .googleStyle{
+    margin-left: 110px;
+  }
+}
+@media screen and (max-width: 900px){
+  .outercircle1{
+    margin-left: 650px;
+    margin-top: -155px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .outercircle1{
+    margin-left: 600px;
+    margin-top: -155px;
+    width: 400px;
+    height: 400px;
+  }
+  .circle1{
+    height: 300px;
+    width: 300px;
+    margin-top: 43px;
+    margin-left: 50px;
+  }
+  .outercircle2{
+    width: 400px;
+    height: 400px;
+  }
+  .circle2{
+    height: 300px;
+    width: 300px;
+    margin-top: 43px;
+    margin-left: 50px;
+  }
+  .box-sign{
+    width: 650px;
+    height: 480px;
+    margin-top: 4.5%;
+    }
+  .sign_detail{
+    height: 480px;
+  }
+  .sign2_detail{
+    height: 480px;
+  }
+  .forgotpass{
+    margin-left: -150px !important;
+  }
+  .form_style{
+    margin-top: 20px;
+  }
+  .data-3{
+    margin-top: 7%;
+  }
+  .sign_but1{
+    margin-left: 23%;
+  }
+  .eye{
+    margin-left: 71%;
+    margin-top:-6%;
+  }
+  .googleStyle{
+    margin-left: 80px;
+  }
+}
+@media screen and (max-width: 780px){
+  .outercircle1{
+    margin-left: 500px;
+    margin-top: -135px;
+  }
+  .box-sign{
+    width: 600px;
+  }
+  .eye{
+    margin-left: 70%;
+  }
+  .forgotpass{
+    margin-left: -120px !important;
+  }
+  .googleStyle{
+    margin-left: 65px;
+  }
+}
+@media screen and (max-width:767px) {
+  .box-sign{
+    width: 500px;
+  }
+  .manageHeight{
+    height: 870px !important;
+  }
+  .sign2_detail{
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 15px;
+    height: 300px;
+  }
+  .data-1{
+    margin-top: 10%;
+   }
+  .data-2{
+    margin-top: 10%;
+    padding-left: 25px;
+    padding-right: 25px;
+   }
+   .sign_but1
+   {
+    margin-left: 37%;
+    margin-top: 10%;
+   }
+   .sign_form{
+    height: max-content;
+    background-color: #fff;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  .eye{
+    margin-top: -25px;
+  }
+  .googleStyle{
+    margin-left: 110px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .box-sign{
+    width: 480px;
+    height: 420px;
+    margin-top: 7%;
+  }
+  .sign2_detail{
+    height: 320px;
+  }
+  .manageHeight{
+    height: 910px !important;
+  }
+  .outercircle1{
+    margin-left: 410px;
+    margin-top: -135px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .box-sign{
+    width: 480px;
+    height: 420px;
+    margin-top: 7%;
+    }
+}
+@media screen and (max-width: 584px) {
+  @media screen and (min-width:576px){
+    .box-sign{
+      width: 480px;
+      }
+    .manageHeight{
+      height: 870px !important;
+    }  
+    .sign_but2{
+      margin-top: 15%;
+      margin-left: 35%;
+    }
+    .forgotpass{
+      margin-left: -100px !important;
+    }
+    .form_style{
+      margin-top: 0px;
+    }
+    .data-3{
+      margin-top: 2%;
+    }
+    .eye{
+      margin-left: 70%;
+      margin-top: -8%;
+    }
+    .input_style1{
+      width:35%;
+      margin-top: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-left: 10px;
+    }
+    .input_style2{
+        width:76%;
+        margin-top: 20px;
+    } 
+    .outercircle1{
+      margin-left: 350px;
+      margin-top: -135px;
+    }
+  }
+}
+@media screen and (max-width: 575px) {
+  .box-sign{
+    width: 430px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  .sign_detail{
+    height: 210px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 15px;
+  }
+  .sign2_detail{
+    height: 260px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 15px;
+  }
+  .sign_but2{
+    margin-top: 10%;
+    margin-left: 35%;
+  }
+  .sign_but3{
+    margin-left: 37%;
+  }
+  .data-1{
+   margin-top: 10%;
+  } 
+  .data-2{
+    margin-top: 3%;
+  }
+  .input_style1{
+    width:40%;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+  }
+  .input_style2{
+      width:87%;
+      margin-top: 20px;
+  }
+  .eye{
+    margin-left: 80%;
+  }
+  .forgotpass{
+    margin-left: -170px !important; 
+  }
+  .googleStyle{
+    margin-left: 70px;
+    margin-bottom: 30px;
+  }
+  .outercircle1{
+    margin-left: 300px;
+    margin-top: -135px;
+  }
+  .manageHeight{
+    height: 820px !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .box-sign{
+    width: 380px;
+  }
+  .data-3{
+    font-size: 32px;
+  }
+  .googleStyle{
+    margin-left: 50px;
+    margin-bottom: 30px;
+  }
+  .outercircle1{
+    margin-left: 260px;
+    margin-top: -135px;
+  }
+}  
+@media screen and (max-width: 431px) {
+  .box-sign{
+    width: 320px;
+    height: max-content;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  .sign_detail{
+    height: 210px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 15px;
+  }
+  .sign2_detail{
+    height: 250px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 15px;
+  }
+  .sign_but2{
+    margin-top: 13%;
+    margin-left: 33%;
+  }
+  .sign_but3{
+    margin-left: 34%;
+  }
+  .data-1{
+   margin-top: 10%;
+  } 
+  .data-2{
+    margin-top: 5%;
+  }
+  .sign_but1{
+    margin-left: 34%;
+  }
+  .input_style1{
+    width:40%;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+  }
+  .input_style2{
+      width:87%;
+      margin-top: 20px;
+  }
+  .eye{
+    margin-left: 78%;
+    margin-top: -8%;
+  }
+  .forgotpass{
+    margin-left: -130px !important; 
+  }
+  .googleStyle{
+    margin-left: 25px;
+    margin-bottom: 30px;
+  }
+  .data-3{
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .outercircle2{
+    margin-top: 400px;
+  }
+  .outercircle1{
+    margin-left: 200px;   
+  }
+  .manageHeight{
+    height: 800px !important;
+  }
+}
